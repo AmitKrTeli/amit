@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .navbar .search-box {
+    width: 55%;
+  }
+  
+  .bottom-nav ul li {
+    list-style: none;
+    cursor: pointer;
+    margin-right: 50px;
+    transition: 0.3s;
+  }
+  .bottom-nav ul li:hover {
+    color: red;
+  }
+  .bottom-nav ul {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+  }
+  .brands img {
+    width: 160px;
+  }
+  .select-control {
+    width: 100%;
+    padding: 2px 5px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+  }
+  .light-text {
+    color: gray;
+  }
+  strike {
+    color: gray;
+    font-size: 11px;
+  }
+  .foot {
+    background-color: #101010;
+  }
+  .footer {
+    background-color: #000;
+    height: 50px;
+  }
+  .btn-dark {
+    background-color: #101010;
+    border: #101010;
+  }
+  .foot ul li {
+    list-style: none;
+    cursor: pointer;
+    color: #f0f0f0;
+  }
+  .foot ul li:hover {
+    text-decoration: underline;
+  }
+  .foot .lables {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  .foot .lables:hover {
+    text-decoration: none;
+  }
+  .search-icon {
+    position: absolute;
+    left: 490px;
+  }
+  .bg-light {
+    background-color: #f7f7f7;
+  }
+  .img-hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: 0.3s;
+  }
+  .img-hover:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
